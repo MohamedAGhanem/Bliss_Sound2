@@ -5,11 +5,13 @@
       <map>
         <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/activity_about_page.xml" value="0.2421875" />
         <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/activity_bluetooth_page.xml" value="0.2421875" />
-        <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/activity_chat_bot.xml" value="0.2421875" />
+        <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/activity_chat_bot.xml" value="0.2" />
         <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/activity_guide_page.xml" value="0.2421875" />
         <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/activity_help.xml" value="0.2421875" />
         <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
         <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/activity_register.xml" value="0.2421875" />
+        <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/bot_msg_rv_item.xml" value="0.2421875" />
+        <entry key="..\:/University/Graduation project/Bliss Sound/app/src/main/res/layout/user_msg_rv_item.xml" value="0.153125" />
       </map>
     </option>
   </component>

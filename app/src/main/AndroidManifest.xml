@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.blisssound">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -11,6 +12,7 @@
 
     <application
         android:allowBackup="true"
+        android:usesCleartextTraffic="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -19,25 +21,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BlissSound"
         tools:targetApi="31">
-
         <activity
             android:name=".ChatBotActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".HelpPageActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".BluetoothPageActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".AboutPageActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".GuidePageActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".RegisterActivity"
             android:exported="true">
